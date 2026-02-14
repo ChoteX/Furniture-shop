@@ -1,0 +1,73 @@
+# Bowen monorepo reproducibility requirements
+# Generated from package manifests and current toolchain versions
+
+# Runtime/toolchain
+node==24.10.0
+npm==11.6.0
+postgres_image==postgres:16-alpine
+
+# Backend dependencies
+backend:@nestjs/common==11.0.1
+backend:@nestjs/config==4.0.3
+backend:@nestjs/core==11.0.1
+backend:@nestjs/jwt==11.0.2
+backend:@nestjs/passport==11.0.5
+backend:@nestjs/platform-express==11.0.1
+backend:@nestjs/serve-static==5.0.4
+backend:@nestjs/typeorm==11.0.0
+backend:bcrypt==6.0.0
+backend:class-transformer==0.5.1
+backend:class-validator==0.14.3
+backend:passport==0.7.0
+backend:passport-jwt==4.0.1
+backend:pg==8.18.0
+backend:reflect-metadata==0.2.2
+backend:rxjs==7.8.1
+backend:typeorm==0.3.28
+
+# Backend devDependencies
+backend-dev:@eslint/eslintrc==3.2.0
+backend-dev:@eslint/js==9.18.0
+backend-dev:@nestjs/cli==11.0.0
+backend-dev:@nestjs/schematics==11.0.0
+backend-dev:@nestjs/testing==11.0.1
+backend-dev:@types/bcrypt==6.0.0
+backend-dev:@types/express==5.0.0
+backend-dev:@types/jest==29.5.14
+backend-dev:@types/node==22.10.7
+backend-dev:@types/passport-jwt==4.0.1
+backend-dev:@types/supertest==6.0.2
+backend-dev:eslint==9.18.0
+backend-dev:eslint-config-prettier==10.0.1
+backend-dev:eslint-plugin-prettier==5.2.2
+backend-dev:globals==16.0.0
+backend-dev:jest==29.7.0
+backend-dev:prettier==3.4.2
+backend-dev:source-map-support==0.5.21
+backend-dev:supertest==7.0.0
+backend-dev:ts-jest==29.2.5
+backend-dev:ts-loader==9.5.2
+backend-dev:ts-node==10.9.2
+backend-dev:tsconfig-paths==4.2.0
+backend-dev:typescript==5.7.3
+backend-dev:typescript-eslint==8.20.0
+
+# Frontend dependencies
+frontend:react==19.2.0
+frontend:react-dom==19.2.0
+frontend:react-router-dom==7.13.0
+
+# Frontend devDependencies
+frontend-dev:@eslint/js==9.39.1
+frontend-dev:@types/react==19.2.7
+frontend-dev:@types/react-dom==19.2.3
+frontend-dev:@vitejs/plugin-react==5.1.1
+frontend-dev:eslint==9.39.1
+frontend-dev:eslint-plugin-react-hooks==7.0.1
+frontend-dev:eslint-plugin-react-refresh==0.4.24
+frontend-dev:globals==16.5.0
+frontend-dev:vite==7.3.1
+
+# Installation
+# npm ci --prefix backend
+# npm ci --prefix frontend

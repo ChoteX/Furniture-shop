@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ece8e1"/>
+  <rect x="180" y="340" width="840" height="220" rx="28" fill="#8f877c"/>
+  <rect x="200" y="280" width="800" height="120" rx="24" fill="#a59b8f"/>
+  <text x="600" y="90" font-size="46" text-anchor="middle" fill="#1f1f1f" font-family="serif">Aura Sofa</text>
+</svg>

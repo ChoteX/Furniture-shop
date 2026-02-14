@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ecece7"/>
+  <rect x="260" y="280" width="680" height="40" fill="#6b5f55"/>
+  <rect x="310" y="320" width="30" height="180" fill="#6b5f55"/>
+  <rect x="860" y="320" width="30" height="180" fill="#6b5f55"/>
+  <text x="600" y="90" font-size="46" text-anchor="middle" fill="#1f1f1f" font-family="serif">Luma Table</text>
+</svg>
